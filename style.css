@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+.page01{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+}
+.wrap{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 3;
+}
+.img0_1{
+    /* border: 4px solid red; */
+    top: 100px;
+    left: 40px;
+    position: fixed;
+    z-index: 2;
+}
+.img0_2{
+    /* border: 4px solid red; */
+    top: 198px;
+    left: 39px;
+    position: absolute;
+}
+.img0_3{
+    /* border: 4px solid red; */
+    top: 162px;
+    left: 293px;
+    position: absolute;
+}
+.img0_4{
+    /* border: 4px solid red; */
+    top: 330px;
+    left: 221px;
+    position: absolute;
+}
+.img0_5{
+    /* border: 4px solid red; */
+    top: 381px;
+    position: absolute;
+    margin: 0 auto;
+}
+.bt0_1{
+    /* border: 4px solid red; */
+    top: 556px;
+    left: 17px;
+    position: absolute;
+}
+.img0_6{
+    /* border: 4px solid red; */
+    top: 93px;
+    left: 141px;
+    position: absolute;
+    display: inline-block;
+}
+.ft01{
+    background-color: black;
+    width: 430px;
+    height: 50px;
+    top: 883px;
+    position: absolute;
+}
+.img0_7{
+    position: absolute;
+    top: 13px;
+    left: 172px;
+}
+
+.font00{font-family: "Noto Sans KR", sans-serif;}
+/* 아케인 등장인물 팝업 */
+.font01{font-size: 14px;font-weight: 700; line-height: 20px; letter-spacing: 0px; color: #ffffff;}
+/* 아케인 시즌2 요약 / 등장인물 이름 큰 이름 */
+.font02{font-size: 24px;font-weight: 500; line-height: 35px; letter-spacing: 0px; color: #ffffff;}
+/* 징크스가 의회에 */
+.font03{font-size: 16px;font-weight: 300; line-height: 24px; letter-spacing: 0px; color: #ffffff}
+/* 등장인물 소개 */
+.font04{font-size: 53px;font-weight: 600; line-height: 76px; letter-spacing: 0px; color: #ffffff}
+/* 징크스 에코 바이 */
+.font05{font-size: 13px;font-weight: 500; line-height: 29px; letter-spacing: 0px;}
+/* 등장인물 설명문 / 팝업- 한국 아케인분들을 위해 */
+.font06{font-size: 11px;font-weight: 300; line-height: 17px; letter-spacing: 0px; color: #ffffff;}
+/* 아케인 시즌 2 특별 팝업행사 / 이벤트 참여 안내 */
+.font07{font-size: 30px;font-weight: 600; line-height: 44px; letter-spacing: 0px; color: #ffffff;}
+/* 팝업 날짜, 장소 / 4개의 체험을 통해 */
+.font08{font-size: 12px;font-weight: 300; line-height: 17px; letter-spacing: 0px; color: #ffffff;}
+/* 장소 파랑색 */
+.font09{font-size: 9px;font-weight: 500; line-height: 13px; letter-spacing: 0px; color: #73ABF6;}
+/* 신세계 강남점 */
+.font10{font-size: 9px;font-weight: 300; line-height: 13px; letter-spacing: 0px; color: #ffffff;}
+
+.b01{height: 578px; background-color: #000000;position: relative;}
+.b02{height: 506px; background-image: url(img/1_img03.png);}
+.b03{height: 787px; background-image: url(img/2_img011.png);}
+.b04{height: 563px; background-image: url(img/3_img01.png);}
+.b05{height: 430px; background-image: url(img/3_c01.png);}
+.b06{height: 430px; background-image: url(img/3_c02.png);}
+.b07{height: 430px; background-image: url(img/3_c03.png);}
+.b08{height: 430px; background-image: url(img/3_c04.png);}
+.b09{height: 430px; background-image: url(img/3_c05.png);}
+.b10{height: 430px; background-image: url(img/3_c06.png );}
+.b11{height: 716px; background-image: url(img/4_img01.png);}
+.b12{height: 530px; background-image: url(img/5_img01.png);}
+.ft02{height: 50px; background-color: #000000;}
+
+.yup01{
+    position: relative;
+}
+.text1_1{
+    position: absolute;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    top: 21px;
+    left: 112px;
+}
+.text1_2{
+    position: absolute;
+    display: inline-block;
+    width: 52px;
+    height: 20px;
+    top: 21px;
+    left: 218px;
+}
+.text1_3{
+    position: absolute;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    top: 21px;
+    left: 336px;
+}
+.yup02{
+    position: absolute;
+    top: 224px;
+    left: 33px;
+}
+.yup03{
+    position: absolute;
+    top: 382px;
+    left: 158px;
+}
+.bt02{
+    position: absolute;
+    top: 463px;
+    left: 88px;
+}
+.text2_1{
+    position: absolute;
+    top: 1198px;
+    left: 123px;
+    text-align: center;
+    margin: 0 auto;
+}
+.text2_2{
+    position: absolute;
+    top: 1364px;
+    left: 42px;
+    text-align: center;
+    margin: 0 auto;
+}
+.bg01{
+    position: absolute;
+    background-color: #0E2455;
+    width: 430px;
+    height: 35px;
+    top: 1198px;
+}
+.yup04{
+    position: absolute;
+    top: 1303px;
+    left: 59px;
+}
+.yup041{
+    position: absolute;
+    width: 100%;
+    height: 452px;
+    top: 1417px;
+}
+.text3_1{
+    position: absolute;
+    top: 1972px;
+    left: 65px;
+}
+.yup05{
+    position: absolute;
+    top: 2094px;
+    left: 16px;
+}
+.ct_01{
+    display: inline-block;
+    position: absolute;
+    color: #287BA6;
+    top: 2105px;
+    left: 50px;
+    z-index: 2;
+}
+.ct_02{
+    display: inline-block;
+    position: absolute;
+    color: #EF396A;
+    top: 2105px;
+    left: 105px;
+    z-index: 2;
+}
+.ct_03{
+    display: inline-block;
+    position: absolute;
+    color: #334ACB;
+    top: 2105px;
+    left: 149px;
+    z-index: 2;
+}
+.ct_04{
+    display: inline-block;
+    position: absolute;
+    color: #A7A8AC;
+    top: 2105px;
+    left: 218px;
+    z-index: 2;
+}
+.ct_05{
+    display: inline-block;
+    position: absolute;
+    color: #F6CF75;
+    top: 2105px;
+    left: 262px;
+    z-index: 2;
+}
+.ct_06{
+    display: inline-block;
+    position: absolute;
+    color: #BF7A5E;
+    top: 2105px;
+    left: 343px;
+    z-index: 2;
+}
+.c1_1{
+    position: absolute;
+    top: 2737px;
+    left: 182px;
+    text-align: center;
+    margin: 0 auto;
+}
+.c1_2{
+    position: absolute;
+    top: 2778px;
+    left: 19px;
+    text-align: center;
+    margin: 0 auto;
+}
+.c2_1{
+    position: absolute;
+    top: 3167px;
+    left: 193px;
+    text-align: center;
+    margin: 0 auto;
+}
+.c2_2{
+    position: absolute;
+    top: 3208px;
+    left: 55px;
+    text-align: center;
+    margin: 0 auto;
+}
+.c3_1{
+    position: absolute;
+    top: 3595px;
+    left: 171px;
+    text-align: center;
+    margin: 0 auto;
+}
+.c3_2{
+    position: absolute;
+    top: 3643px;
+    left: 23px;
+    text-align: center;
+    margin: 0 auto;
+}
+.c4_1{
+    position: absolute;
+    top: 4025px;
+    left: 193px;
+    text-align: center;
+    margin: 0 auto;
+}
+.c4_2{
+    position: absolute;
+    top: 4066px;
+    left: 89px;
+    text-align: center;
+    margin: 0 auto;
+}
+.c5_1{
+    position: absolute;
+    top: 4455px;
+    left: 160px;
+    text-align: center;
+    margin: 0 auto;
+}
+.c5_2{
+    position: absolute;
+    top: 4496px;
+    left: 30px;
+    text-align: center;
+    margin: 0 auto;
+}
+.c6_1{
+    position: absolute;
+    top: 4885px;
+    left: 182px;
+    text-align: center;
+    margin: 0 auto;
+}
+.c6_2{
+    position: absolute;
+    top: 4926px;
+    left: 14px;
+    text-align: center;
+    margin: 0 auto;
+}
+.yup06{
+    position: absolute;
+    top: 5181px;
+    left: 100px;
+}
+.text4_1{
+    position: absolute;
+    top: 5262px;
+    left: 60px;
+    text-align: center;
+    margin: 0 auto;
+}
+.text4_2{
+    position: absolute;
+    top: 5280px;
+    left: 38px;
+    text-align: center;
+    margin: 0 auto;
+}
+.text4_3{
+    position: absolute;
+    top: 5347px;
+    left: 157px;
+    text-align: center;
+    margin: 0 auto;
+}
+.text4_4{
+    position: absolute;
+    top: 5372px;
+    left: 104px;
+    text-align: center;
+    margin: 0 auto;
+}
+.yup07{
+    position: absolute;
+    top: 5691px;
+    left: 137px;
+}
+.text5_1{
+    position: absolute;
+    top: 5738px;
+    left: 298px;
+    text-align: center;
+    margin: 0 auto;
+}
+.text5_2{
+    position: absolute;
+    top: 5738px;
+    left: 318px;
+    text-align: center;
+    margin: 0 auto;
+}
+.text5_3{
+    position: absolute;
+    top: 5766px;
+    left: 110px;
+    text-align: center;
+    margin: 0 auto;
+}
+.text5_4{
+    position: absolute;
+    top: 5814px;
+    left: 121px;
+    text-align: center;
+    margin: 0 auto;
+}
+.yup08{
+    position: absolute;
+    top: 6171px;
+    left: 124px;
+}
+.last{
+    position: absolute;
+    left: 172px;
+    padding-top: 13px;
+}
